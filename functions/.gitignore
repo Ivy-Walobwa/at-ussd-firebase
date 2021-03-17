@@ -1,12 +1,9 @@
 node_modules/
 
 # Compiled JavaScript files
-**/*.js
-**/*.js.map
-
+lib
 
 # Except the ESLint config file
 !.eslintrc.js
-
 # TypeScript v1 declaration files
 typings/
