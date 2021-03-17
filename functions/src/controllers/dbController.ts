@@ -27,4 +27,13 @@ const fetchUserDetails = async (phoneNumber: string)=>{
     const data: EntryTypeInterface = {...doc.data()};
     return data;
 }
-export { checkUSer, addNewUser, fetchUserDetails}
+
+const updateUserName = async (phoneNumber:string, name:string)=>{
+    await userRef.doc(phoneNumber).update({name})
+}
+
+const deleteUser = async(phoneNumber:string)=>{
+    await userRef.doc(phoneNumber).delete();
+}
+
+export { checkUSer, addNewUser, fetchUserDetails, updateUserName, deleteUser}
