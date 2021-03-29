@@ -1,6 +1,7 @@
 import Header from './pages/home/Header';
 import Footer from './pages/home/Footer';
 import Home from './pages/home/Home';
+import Dash from './pages/dash/MainDash';
 
 import { NavLink, BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -94,7 +95,7 @@ function App() {
 					<Route path="/" exact render={(props) => <Home {...props} links={appLinks} />} />
 					<Route path="/hospitals/" exact component={NotImplemented} />
 					<Route path="/alerts/" exact component={NotImplemented} />
-					<Route path="/dashboard/" exact component={NotImplemented} />
+					<Route path="/dashboard/" exact component={Dash} />
 					<Route path="/account/" exact component={NotImplemented} />
 					<Route component={Error404} />
                 </Switch>
