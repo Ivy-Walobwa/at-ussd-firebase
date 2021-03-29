@@ -53,7 +53,7 @@ export default function Footer (props) {
         }
     ].map((item, i) => <ContactItem key={i} {...item}/>);
 
-    const appLinks = props.links.map((link, i) => <li><NavLink key={i} activeStyle={props.linkStyle} to={link.link}>{link.name}</NavLink></li>)
+    const appLinks = props.links.map((link, i) => <li key={i}><NavLink activeStyle={props.linkStyle} to={link.link}>{link.name}</NavLink></li>)
 
     return (
         <footer className="section footer-classic context-dark bg-image" style={fStyle}>
