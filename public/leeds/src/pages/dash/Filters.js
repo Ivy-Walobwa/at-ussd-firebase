@@ -33,9 +33,14 @@ export default function FilterSection () {
         {name: "36 - 50 years", value: 4}
     ].map((option, i) => <FormSelectOptions key={i} {...option} />);
 
+    const filterStyle = {
+        borderRight: '5px solid #343a40',
+        minHeight: '48.6vh'
+    }
+
 
     return (
-        <Col id="s-f" md={3}>
+        <Col id="s-f" md={3} style={filterStyle}>
             <h3 className="text-center">Filters</h3>
             <Form>
                 <Form.Group controlId="status">

@@ -3,6 +3,8 @@ import React from 'react'
 
 import { Col } from 'react-bootstrap';
 
+import '../../css/dash.css';
+
 
 function DashRow (props) {
     const {number, name, progress, status, statusNum} = props;
