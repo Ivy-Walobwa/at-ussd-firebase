@@ -1,0 +1,43 @@
+#s-f {
+    border-right: 5px solid #343a40;
+    min-height: 48.6vh;
+}
+
+#ls {
+    padding-top: 2em;
+}
+
+.dash-row {
+    display: grid;
+    grid-template-columns: 3;
+    height: 3em;
+    margin: auto;
+    padding-top: 10px;
+    border-bottom: 1px solid #343a40;
+}
+
+.title-row {
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.cell-1 {
+    grid-column: 1 / 3;
+}
+
+.cell-2 {
+    grid-column: 3;
+}
+
+.cell-3 {
+    grid-column: 4;
+}
+
+.cell-number {
+    margin: 1em 1em 0 1em;
+}
+
+.not-okay {
+    background-color: rgb(138, 65, 65);
+    color: seashell;
+}
