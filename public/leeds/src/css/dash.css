@@ -37,6 +37,11 @@
     margin: 1em 1em 0 1em;
 }
 
+.semi-okay {
+    background-color: rgb(126, 122, 122);
+    color: seashell;
+}
+
 .not-okay {
     background-color: rgb(138, 65, 65);
     color: seashell;
