@@ -1,0 +1,31 @@
+footer {
+    color: aliceblue;
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(236, 206, 206, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #fff7f7;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a {
+    color: #9a9da0;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
